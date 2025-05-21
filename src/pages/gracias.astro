@@ -1,0 +1,50 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="¡Gracias por tu mensaje! | Editsandgo.">
+  <div class="gracias-container">
+    <h1>¡Gracias por tu mensaje!</h1>
+    <p>Tu formulario se ha enviado correctamente. En Editsandgo leeremos tu mensaje con atención y te responderemos lo antes posible.</p>
+    <a class="volver" href="/">Volver a la página principal</a>
+  </div>
+</BaseLayout>
+
+<style>
+  .gracias-container {
+    text-align: center;
+    padding: 3rem;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+    max-width: 500px;
+    margin: 5rem auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+  }
+
+  .gracias-container h1 {
+    color: #4a4a4a;
+    margin-bottom: 1rem;
+  }
+
+  .gracias-container p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+
+  .volver {
+    display: inline-block;
+    margin-top: 2rem;
+    padding: 0.8rem 1.5rem;
+    background-color: #e0e0e0;
+    color: #333;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+
+  .volver:hover {
+    background-color: #ccc;
+  }
+</style>

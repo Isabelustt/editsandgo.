@@ -1,16 +1,78 @@
 ---
 
+import BaseLayout from '../layouts/BaseLayout.astro';
 ---
+<BaseLayout title="Inicio | Editsandgo.">
+  <div class="main-container">
+    <section class="home" id="home">
+      <div class="content">
+        <h3>Editsandgo.</h3>
+        <span>Sacamos todo el potencial de tu novela y te acompañamos durante el proceso.</span>
+      </div>
+    </section>
+  </div>
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+  <h1 class="heading">Nuestros servicios</h1>
+
+  <section class="services" id="services">
+    <div class="service-box ortotipografico">
+      <div class="overlay-text">
+        <h3>Corrección ortotipográfica</h3>
+        <span>Nos encargamos de pulir tu texto asegurándonos de que cumpla con las normas ortográficas y tipográficas, mejorando la legibilidad y presentación.</span>
+        <div class="button-container">
+          <a href="/contacto" class="button">¡Lo quiero!</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="service-box right estilo">
+      <div class="overlay-text">
+        <h3>Corrección de estilos</h3>
+        <span>Te ayudamos a mejorar la coherencia, cohesión y fluidez del texto, sin perder tu voz como autora o autor.</span>
+        <div class="button-container">
+          <a href="/contacto" class="button">¡Lo quiero!</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="service-box combinado">
+      <div class="overlay-text">
+        <h3>Corrección ortotipográfica + corrección de estilos</h3>
+        <span>Unimos la ortotipografía y el estilo para que tu texto quede completamente pulido y listo para publicar.</span>
+        <div class="button-container">
+          <a href="/contacto" class="button">¡Lo quiero!</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="service-box right portadas">
+      <div class="overlay-text">
+        <h3>Diseño de portadas</h3>
+        <span>Diseñamos la portada que mejor refleja tu historia y atrapa al lector a primera vista.</span>
+        <div class="button-container">
+          <a href="/contacto" class="button">¡Lo quiero!</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="service-box maquetacion">
+      <div class="overlay-text">
+        <h3>Maquetación</h3>
+        <span>Preparamos el interior de tu libro para su impresión o formato digital, con un diseño limpio, profesional y adaptado a tu estilo.</span>
+        <div class="button-container">
+          <a href="/contacto" class="button">¡Lo quiero!</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="service-box right completa">
+      <div class="overlay-text">
+        <h3>Recorrido completo</h3>
+        <span>Desde la corrección hasta la portada. Te acompañamos paso a paso en todo el proceso de publicación.</span>
+        <div class="button-container">
+          <a href="/contacto" class="button">¡Lo quiero!</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

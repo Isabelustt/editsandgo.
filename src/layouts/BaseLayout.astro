@@ -1,0 +1,51 @@
+---
+const { title = 'Editsandgo.' } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title}</title>
+    <link rel="stylesheet" href="/styles/estilos.css" />
+    <!-- Iconos FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <!-- Fuente Roboto de Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+  </head>
+
+  <body>
+    <header>
+      <input type="checkbox" id="toggler" />
+      <label for="toggler" class="fas fa-bars" ></label>
+      <a href="/" class="logo">
+        <img src="/imagenes/logo.png" alt="Editsandgo">
+      </a>
+      <nav class="navbar">
+        <a href="/">Inicio</a>
+        <a href="/">Servicios</a>
+        <a href="/nosotras">Sobre nosotras</a> 
+        <a href="/contacto">Contacto</a>
+      </nav>
+    </header>
+
+    <main>
+      <slot /> <!-- Aquí se inserta el contenido de cada página -->
+    </main>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-line"></div>
+        <div class="footer-social">
+          <a href="https://www.instagram.com/editsandgo/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="https://twitter.com/" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="mailto:editsandgo@email.com" aria-label="Enviar correo"><i class="fas fa-envelope"></i></a>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 Editsandgo · Todos los derechos reservados</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
