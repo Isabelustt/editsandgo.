@@ -267,7 +267,8 @@ header .fa-bars{
     padding: 6rem 2rem;
     background-color: #f9f9f9;
     text-align: center;
-    background-image: url('/imagenes/fondo.jpg');
+    /*background-image: url('/imagenes/fondo.jpg');*/
+    background-color: #f9e79f;
     background-size: cover;
     background-repeat: no-repeat;
     z-index: 1;
