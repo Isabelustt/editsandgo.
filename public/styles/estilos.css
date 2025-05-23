@@ -174,19 +174,23 @@ header .fa-bars{
   background-size: cover;
   background-position: center;
   display: flex;
-  flex-direction: column; /* apila el contenido verticalmente */
-  justify-content: center;
+  flex-direction: row; /* apila el contenido verticalmente */
+  justify-content: flex-start;
+  align-items: center;
   padding: 2rem;
   border-radius: 1rem;
   overflow: hidden;
   margin-bottom: 2rem;
 }
 
-/*.service-box.right {
-  align-items: flex-end;
-  text-align: left;
-}*/
+.service-box.right {
+ text-align: right;
+  margin-left: auto;
+}
+
 .overlay-text {
+ text-align: right;
+  margin-left: auto;
   max-width: 50%;
   padding: 2rem;
   color: #fff;
