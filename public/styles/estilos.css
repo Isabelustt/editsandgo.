@@ -176,6 +176,8 @@ header .fa-bars{
   display: flex;
   flex-direction: column; /* apila el contenido verticalmente */
   justify-content: center;
+  align-items: center;
+  text-align: left;
   padding: 2rem;
   border-radius: 1rem;
   overflow: hidden;
@@ -184,6 +186,7 @@ header .fa-bars{
 
 .service-box.right {
   align-items: flex-end;
+  text-align: left;
 }
 
 .overlay-text {
@@ -621,6 +624,20 @@ button:hover {
       display: block;
       font-size: 2rem;
       border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  }
+
+.service-box {
+    flex-direction: row;
+    text-align: left;
+  }
+
+  .service-box.right {
+    flex-direction: row-reverse;
+    text-align: right;
+  }
+
+  .overlay-text {
+    max-width: 60rem;
   }
 
   /* Mostrar el menú cuando se hace clic */
