@@ -632,10 +632,12 @@ button:hover {
 
 .service-box {
     flex-direction: row;
+    align-items: left;
   }
 
   .service-box.right {
     flex-direction: row-reverse;
+    align-items: right;
   }
 
   .overlay-text {
