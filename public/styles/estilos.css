@@ -192,8 +192,8 @@ header .fa-bars{
 .overlay-text {
   max-width: 50%;
   padding: 2rem;
-  color: #F08080;
-  text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.4);
+  color: #FFF;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
 }
 .service-box.right {
   justify-content: flex-end;
