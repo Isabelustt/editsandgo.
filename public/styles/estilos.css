@@ -396,10 +396,18 @@ header .fa-bars{
   }
   
   .titulo-lateral-horizontal h2 {
-    font-size: 5rem;
+    font-size: 3.5rem;
     font-weight: 700;
     line-height: 1;
     color: #222;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    white-space: nowrap;
+  }
+ .titulo-lateral-horizontal p {
+    font-size: 2rem;
+    line-height: 1;
+    color: #888;
     font-family: 'Roboto', sans-serif;
     text-align: left;
     white-space: nowrap;
