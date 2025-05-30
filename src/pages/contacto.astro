@@ -30,15 +30,24 @@ import BaseLayout from '../layouts/BaseLayout.astro';
                     <!-- Redirección (opcional) -->
                     <input type="hidden" name="_next" value="/gracias">
                 
-                    <label for="nombre">Nombre: (obligatorio)</label>
+                    <label for="nombre">Nombre:</label>
                     <input type="text" id="nombre" name="nombre" required placeholder="¿Cómo te llamas? (nos gusta saber con quién hablamos)">
                 
-                    <label for="email">Tu correo (obligatorio)</label>
-                    <input type="email" id="email" name="email" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="Pon uno que leas">
+
+                    <label for="servicio">¿Tienes ya el manuscrito?</label>
+                    <select id="servicio" name="servicio" required>
+                        <option value="">Selecciona una opción</option>
+                        <option value="terminado">Si, terminado</option>
+                        <option value="casi">Casi, estoy en ello</option>
+                        <option value="no">No, pero tengo la idea</option>
+                        <option value="otro">Otro (cuéntanos abajo)</option>
+                    </select>
                 
                     <label for="servicio">¿Qué necesitas?</label>
                     <select id="servicio" name="servicio" required>
-                        <option value="">Selecciona una opción</option>
+                        <option value="">Marca lo que quieras, sin miedo</option>
                         <option value="correccion">Corrección ortotipográfica</option>
                         <option value="estilo">Corrección de estilo</option>
                         <option value="maquetacion">Maquetación</option>
@@ -46,8 +55,9 @@ import BaseLayout from '../layouts/BaseLayout.astro';
                         <option value="pack">Pack completo</option>
                     </select>
                 
-                    <label for="mensaje">Aquí puedes contarnos tus ideas, dudas o sueños literarios:</label>
-                    <textarea id="mensaje" name="mensaje" rows="6" required></textarea>
+                    <label for="mensaje">Cuéntanos un poco más sobre tu libro o lo que necesitas:</label>
+                    <textarea id="mensaje" name="mensaje" rows="6" required placeholder="No hace falta un testamento, pero sí algo más que «quiero ayuda». ¿Género? 
+                    ¿Extensión? ¿Dudas? Lo que quieras contarnos"></textarea>
                     <fieldset class="como-nos-conociste">
                         <legend>¿Cómo nos has conocido?</legend>
                         <div class="radio-options">
