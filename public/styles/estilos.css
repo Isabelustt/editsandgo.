@@ -599,6 +599,19 @@ button:hover {
 
 
 /* MEDIA QUERIES */
+@media (max-width: 450px) {
+  .home .content {
+    padding: 0 1.5rem;
+  }
+
+  .home .content h3 {
+    font-size: 4.2rem;
+  }
+
+  .home .content span {
+    font-size: 2rem;
+  }
+}
 
 /* Para móviles pequeños y medianos (hasta 600px) */
 @media (max-width: 600px) {
