@@ -640,19 +640,20 @@ button:hover {
   .home .content span {
     font-size: 2.5rem;
   }
-        .titulo-lateral-horizontal {
+      .titulo-lateral-horizontal {
     text-align: center;
-    margin-right: 3rem;
-    margin-botom: 3rem;
+    padding: 0 1.5rem; /* Espacio interior para que no toque los bordes */
+    margin: 0 auto; /* Centrado horizontal */
+    width: 100%;
+    box-sizing: border-box; /* Asegura que padding no haga desbordar */
   }
-  
- .titulo-lateral-horizontal p {
-    font-size: 1.4rem;
-    text-align: center;
-  }
+
   .titulo-lateral-horizontal h2 {
-    text-align: center;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
+  }
+
+  .titulo-lateral-horizontal p {
+    font-size: 1.4rem;
   }
 }
 
@@ -702,20 +703,7 @@ button:hover {
   .tarjeta {
     width: 90%;
   }
-    .titulo-lateral-horizontal {
-    text-align: center;
-    margin-right: 3rem;
-    margin-botom: 3rem;
-  }
-  
- .titulo-lateral-horizontal p {
-    font-size: 1.4rem;
-    text-align: center;
-  }
-  .titulo-lateral-horizontal h2 {
-    text-align: center;
-    font-size: 2.5rem;
-  }
+   
   .contacto-left, .contacto-right {
     max-width: 100%;
     text-align: center;
@@ -750,7 +738,7 @@ button:hover {
     justify-content: flex-end;
   }
   header .navbar a {
-    padding: 0 1.5rem;
+   padding-inline: 1.5rem;
     font-size: 2rem;
   }
 }
