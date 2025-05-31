@@ -643,18 +643,18 @@ button:hover {
   }
       .titulo-lateral-horizontal {
     text-align: center;
-    padding: 0 1.5rem; /* Espacio interior para que no toque los bordes */
+    padding: 0 1.3rem; /* Espacio interior para que no toque los bordes */
     margin: 0 auto; /* Centrado horizontal */
     width: 100%;
     box-sizing: border-box; /* Asegura que padding no haga desbordar */
   }
 
   .titulo-lateral-horizontal h2 {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
   }
 
   .titulo-lateral-horizontal p {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
 }
 
