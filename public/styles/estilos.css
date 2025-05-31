@@ -332,7 +332,7 @@ header .fa-bars{
   
   .contenedor-tarjetas {
     display: flex;
-    flex-direction: center;
+    flex-direction: column;
     gap: 2rem;
     flex: 1;
   }
@@ -380,17 +380,20 @@ header .fa-bars{
   }
   .contenedor-nosotras {
     display: flex;
+    flex-direction: row;
     align-items: flex-start;
-    justify-content: flex-start;
-    gap: 2rem;
+    justify-content: space-between;
+    gap: 4rem;
     padding: 4rem 2rem;
     max-width: 1400px;
     margin: 0 auto;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
   }
 
   .titulo-lateral-horizontal {
-    flex-shrink: 0;
+    flex: 1;
+    min-width: 300px;
+    max-width: 700px;
     margin-right: 1rem;
     margin-top: 5rem;
   }
@@ -402,14 +405,12 @@ header .fa-bars{
     color: #222;
     font-family: 'Roboto', sans-serif;
     text-align: left;
-    white-space: nowrap;
   }
  .titulo-lateral-horizontal p {
     font-size: 2rem;
     color: #888;
     font-family: 'Roboto', sans-serif;
     text-align: left;
-    white-space: nowrap;
   }
 
 
