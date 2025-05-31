@@ -332,7 +332,7 @@ header .fa-bars{
   
   .contenedor-tarjetas {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 2rem;
     flex: 1;
   }
