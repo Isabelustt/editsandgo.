@@ -640,6 +640,20 @@ button:hover {
   .home .content span {
     font-size: 2.5rem;
   }
+        .titulo-lateral-horizontal {
+    text-align: center;
+    margin-right: 1rem;
+    margin-botom: 2rem;
+  }
+  
+ .titulo-lateral-horizontal p {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+  .titulo-lateral-horizontal h2 {
+    text-align: center;
+    font-size: 2.5rem;
+  }
 }
 
 
@@ -688,10 +702,19 @@ button:hover {
   .tarjeta {
     width: 90%;
   }
+    .titulo-lateral-horizontal {
+    text-align: center;
+    margin-right: 1rem;
+    margin-botom: 2rem;
+  }
+  
+ .titulo-lateral-horizontal p {
+    font-size: 1.8rem;
+    text-align: center;
+  }
   .titulo-lateral-horizontal h2 {
     text-align: center;
     font-size: 2.5rem;
-    margin-bottom: 2rem;
   }
   .contacto-left, .contacto-right {
     max-width: 100%;
