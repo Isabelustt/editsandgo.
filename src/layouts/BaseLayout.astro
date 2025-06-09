@@ -34,8 +34,7 @@ const { title = 'Editsandgo.' } = Astro.props;
     <main>
       <slot /> <!-- Aquí se inserta el contenido de cada página -->
     </main>
-
-    <footer class="footer">
+<footer class="footer">
   <div class="footer-container">
     <div class="footer-line"></div>
 
@@ -51,13 +50,13 @@ const { title = 'Editsandgo.' } = Astro.props;
     <div class="footer-bottom">
       <p>&copy; 2025 Editsandgo · Todos los derechos reservados</p>
       <div class="footer-links">
-        <a href="/aviso-legal">Aviso Legal</a> · 
-        <a href="/politica-privacidad">Política de Privacidad</a> · 
-        <a href="/politica-cookies">Política de Cookies</a>
+        <a href="/aviso-legal#aviso-legal">Aviso Legal</a>
+        <a href="/aviso-legal#politica-privacidad">Política de Privacidad</a>
+        <a href="/aviso-legal#politica-cookies">Política de Cookies</a>
+
       </div>
     </div>
   </div>
 </footer>
 
-  </body>
 </html>
