@@ -36,17 +36,28 @@ const { title = 'Editsandgo.' } = Astro.props;
     </main>
 
     <footer class="footer">
-      <div class="footer-container">
-        <div class="footer-line"></div>
-        <div class="footer-social">
-          <a href="https://www.instagram.com/editsandgo/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-          <a href="https://twitter.com/" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-          <a href="mailto:editsandgo@email.com" aria-label="Enviar correo"><i class="fas fa-envelope"></i></a>
-        </div>
-        <div class="footer-bottom">
-          <p>&copy; 2025 Editsandgo · Todos los derechos reservados</p>
-        </div>
+  <div class="footer-container">
+    <div class="footer-line"></div>
+
+    <div class="footer-social">
+      <a href="https://www.instagram.com/editsandgo/" target="_blank" aria-label="Instagram">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="mailto:editsandgo@gmail.com" aria-label="Enviar correo">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2025 Editsandgo · Todos los derechos reservados</p>
+      <div class="footer-links">
+        <a href="/aviso-legal">Aviso Legal</a> · 
+        <a href="/politica-privacidad">Política de Privacidad</a> · 
+        <a href="/politica-cookies">Política de Cookies</a>
       </div>
-    </footer>
+    </div>
+  </div>
+</footer>
+
   </body>
 </html>
