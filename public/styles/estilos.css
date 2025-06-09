@@ -616,6 +616,29 @@ button:hover {
 .footer-links a:hover {
   color: #F8BB3FD4;
 }
+
+
+/*ESTILOS PARA CONTENIDO LEGAL*/
+.legal-page {
+  font-size: 1.6rem;
+  line-height: 1.8;
+  color: #333;
+  padding: 8rem 2rem; /* espacio arriba y abajo */
+  max-width: 900px;
+  margin-left: 2rem;  /* alineación a la izquierda */
+  margin-right: auto;
+}
+
+/* Para corregir la alineación de las listas */
+.legal-page ul,
+.legal-page ol {
+  padding-left: 2rem;
+  margin-bottom: 2rem;
+}
+
+.legal-page li {
+  margin-bottom: 0.8rem;
+}
   
 
 
